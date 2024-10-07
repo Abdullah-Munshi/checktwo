@@ -2933,7 +2933,7 @@ img {
 }
 @media (max-width: 60rem) {
   .widget-creator {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
 }
 .widget-creator__builder {
@@ -3059,19 +3059,10 @@ img {
 }
 @media (max-width: 37.5rem) {
   .welcome__header {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 }
-.welcome__header:after {
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJtNTA1LjYgMjc3LjMtNDUuMyAxLjNjLTEuMSAwLTIgLjQtMi44IDFhNS4yIDUuMiAwIDAgMCAzLjIgOS4zbDIwLjctLjZjLTgxLjkgNTcuNC0xNjQuNSA4MC4xLTI0NS4zIDY3LjctMTM1LjktMjEtMjIxLjItMTM1LjctMjIyLTEzNi45QTUgNSAwIDAgMCA3IDIxOGE1LjEgNS4xIDAgMCAwLTEuMSA3LjJjLjkgMS4yIDg4LjYgMTE5LjQgMjI4LjcgMTQxIDgzLjkgMTIuOSAxNjkuMy0xMC44IDI1My45LTcwLjNsLTcuNCAyMS41Yy0uOSAyLjcuNSA1LjYgMy4yIDYuNSAyLjcuOSA1LjYtLjUgNi41LTMuMmwxNC44LTQzLjR6IiBmaWxsPSIjMmY0ODU4Ii8+PC9zdmc+)
-    no-repeat;
-  content: "";
-  height: 11rem;
-  position: absolute;
-  right: -2rem;
-  top: 6rem;
-  width: 11rem;
-}
+
 @media (max-width: 60rem) {
   .welcome__header:after {
     height: 6rem;
